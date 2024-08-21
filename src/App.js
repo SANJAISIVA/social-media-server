@@ -23,7 +23,7 @@ function App() {
       {/* https://github.com/
       SANJAISIVA/social-media-json-server-react */}
       <Routes>
-        <Route exact path='/SANJAISIVA/social-media-json-server-react' element={ <Home /> } />
+        <Route exact path='/SANJAISIVA/social-media-json-server' element={ <Home /> } />
         <Route path='post'>
           <Route index element={ <NewPost /> } />
 
