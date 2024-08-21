@@ -20,9 +20,10 @@ function App() {
 
       <Header title="Social Media App"/> 
       <Nav />
-
+      {/* https://github.com/
+      SANJAISIVA/social-media-json-server-react */}
       <Routes>
-        <Route path='/' element={ <Home /> } />
+        <Route exact path='/SANJAISIVA/social-media-json-server-react' element={ <Home /> } />
         <Route path='post'>
           <Route index element={ <NewPost /> } />
 
